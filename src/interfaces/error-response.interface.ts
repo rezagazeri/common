@@ -6,5 +6,5 @@ export interface IErrorResponse {
   readonly timestamp: string;
   readonly path?: string;
   readonly method?: string;
-  readonly message: string;
+  readonly message: any;
 }
